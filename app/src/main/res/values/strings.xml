@@ -18,4 +18,10 @@
     <string name="recipes">My Recipes</string>
     <string name="cook">Cook Now</string>
     <string name="contact">Contact Us</string>
+    <string name="email">Email</string>
+    <string name="type_email"> type email</string>
+    <string name="password">Password</string>
+    <string name="type_password"> type password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login">LOGIN</string>
 </resources>
