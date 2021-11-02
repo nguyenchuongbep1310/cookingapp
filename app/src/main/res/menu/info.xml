@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/info1"
+        android:title="0123456789"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/info1"
+        />
+    <item
+        android:id="@+id/info2"
+        android:title="abc@gmail.com"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/info2"
+        />
+    <item
+        android:id="@+id/info3"
+        android:title="Thu Duc"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/info3"
+        />
+
+</menu>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/headerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorWhite"
+            app:itemIconTint="@android:color/darker_gray"
+            app:itemTextColor="@android:color/background_dark"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/menu_bottom_nav" />
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:layout_above="@+id/bottom_nav"
+            android:background="@drawable/type_frame1"
+            android:text="SEND"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:layout_marginBottom="30dp"
+            />
+
+        <EditText
+            android:id="@+id/edittext_message"
+            android:layout_width="390dp"
+            android:layout_height="100dp"
+            android:layout_above="@+id/btn_send"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/edit_bg1"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/text_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/edittext_message"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="6dp"
+            android:textColor="#8F0F1C"
+            android:text="Message" />
+
+        <EditText
+            android:id="@+id/edittext_phone"
+            android:layout_width="390dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/text_message"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/edit_bg1"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/text_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/edittext_phone"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="6dp"
+            android:textColor="#8F0F1C"
+            android:text="Phone" />
+
+        <EditText
+            android:id="@+id/edittext_mail"
+            android:layout_width="390dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/text_phone"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/edit_bg1"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/text_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/edittext_mail"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="6dp"
+            android:textColor="#8F0F1C"
+            android:text="Mail" />
+
+        <EditText
+            android:id="@+id/edittext_name"
+            android:layout_width="390dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/text_mail"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/edit_bg1"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/edittext_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="6dp"
+            android:textColor="#8F0F1C"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/text_contactfrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/text_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="6dp"
+            android:textColor="@color/black"
+            android:text="Contact Form"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="390dp"
+            android:layout_height="100dp"
+            android:layout_above="@+id/text_contactfrom"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/info"
+            android:background="@drawable/edit_bg1" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
