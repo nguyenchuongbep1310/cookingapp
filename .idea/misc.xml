@@ -4,10 +4,20 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable-xhdpi/button_shape.xml" value="0.1259259259259259" />
+        <entry key="app/src/main/res/drawable-xxhdpi/edit_bg1.xml" value="0.12129629629629629" />
+        <entry key="app/src/main/res/drawable-xxhdpi/type_frame1.xml" value="0.12129629629629629" />
+        <entry key="app/src/main/res/layout/activity_category.xml" value="0.12604166666666666" />
+        <entry key="app/src/main/res/layout/activity_contactus.xml" value="0.2536443148688047" />
+        <entry key="app/src/main/res/layout/activity_detail.xml" value="0.12604166666666666" />
+        <entry key="app/src/main/res/layout/activity_favorite.xml" value="0.12604166666666666" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.20878623188405798" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.19021739130434784" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19021739130434784" />
+        <entry key="app/src/main/res/layout/activity_thanks.xml" value="0.13541666666666666" />
         <entry key="app/src/main/res/layout/fragment_category.xml" value="0.19021739130434784" />
+        <entry key="app/src/main/res/layout/item_recycler_category.xml" value="0.12604166666666666" />
+        <entry key="app/src/main/res/layout/item_recycler_category_shimmer.xml" value="0.12604166666666666" />
+        <entry key="app/src/main/res/layout/item_recycler_meal.xml" value="0.12604166666666666" />
         <entry key="app/src/main/res/layout/item_view_pager_header.xml" value="0.19021739130434784" />
         <entry key="app/src/main/res/layout/item_view_pager_header_shimmer.xml" value="0.2028985507246377" />
         <entry key="app/src/main/res/menu/menu_bottom_nav.xml" value="0.2578125" />
